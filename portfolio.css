@@ -40,3 +40,5 @@ body:has(#crane-drawer[open]){overflow:hidden}
 .inspection-meter progress::-webkit-progress-value{background:#2563eb;border-radius:10px}
 .inspection-meter progress::-moz-progress-bar{background:#2563eb;border-radius:10px}
 @media(max-width:650px){.inspection-summary-layout{gap:12px;flex-wrap:wrap}.inspection-name{flex-basis:100%}.inspection-meter{width:100%}.inspection-count strong{font-size:18px}}
+
+.mock-toolbar label[hidden],#drawer-settings[hidden]{display:none}.ipraf-table{width:100%}.ipraf-table th,.ipraf-table td{padding:18px;text-align:left;white-space:normal}.ipraf-table tbody th{font-size:13px;line-height:1.6;font-weight:500;width:65%;border-bottom:1px solid var(--line)}
